@@ -1,0 +1,8 @@
+CREATE TABLE `pc_ip_addres_tb` (
+`id` int(4) NOT NULL auto_increment,
+`ip_addres` varchar(65) NOT NULL default '',
+`ip_addres_internet` varchar(65) NOT NULL default '',
+`ip_addres_status` varchar(65) NOT NULL default '',
+`ip_addres_note` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);

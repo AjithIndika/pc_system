@@ -1,0 +1,5 @@
+CREATE TABLE `pc_cpu_speed_tb` (
+`id` int(4) NOT NULL auto_increment,
+`cpu_speed` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);

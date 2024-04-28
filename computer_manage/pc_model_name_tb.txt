@@ -1,0 +1,6 @@
+CREATE TABLE `pc_model_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`manufacture_name` varchar(65) NOT NULL default '',
+`model_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;

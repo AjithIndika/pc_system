@@ -1,0 +1,204 @@
+CREATE TABLE `pc_building_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`building_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_country_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`country_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_cpu_gen_tb` (
+`id` int(4) NOT NULL auto_increment,
+`cpu_gen` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_cpu_speed_tb` (
+`id` int(4) NOT NULL auto_increment,
+`cpu_speed` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_currency_type_tb` (
+`id` int(4) NOT NULL auto_increment,
+`currency_type` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_department_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`department_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_equpment_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`equpment_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_hd_capacity_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`hd_capacity` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_ip_addres_tb` (
+`id` int(4) NOT NULL auto_increment,
+`ip_addres` varchar(65) NOT NULL default '',
+`ip_addres_internet` varchar(65) NOT NULL default '',
+`ip_addres_status` varchar(65) NOT NULL default '',
+`ip_addres_note` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `pc_it_deails_tb` (
+`control_number` varchar(65) NOT NULL default '',
+`equpment_name` varchar(65) NOT NULL default '',
+`rent_device` varchar(65) NOT NULL default '',
+`responsible_name` varchar(65) NOT NULL default '',
+`pc_using` varchar(65) NOT NULL default '',
+`status_name` varchar(65) NOT NULL default '',
+`owner_name` varchar(65) NOT NULL default '',
+`country_name` varchar(65) NOT NULL default '',
+`department_name` varchar(65) NOT NULL default '',
+`section_name` varchar(65) NOT NULL default '',
+`building_name` varchar(65) NOT NULL default '',
+`manufacture_name` varchar(65) NOT NULL default '',
+`model_name` varchar(65) NOT NULL default '',
+`sn_no` varchar(65) NOT NULL default '',
+`cpu_gen` varchar(65) NOT NULL default '',
+`cpu_speed` varchar(65) NOT NULL default '',
+`hd_type` varchar(65) NOT NULL default '',
+`hd_capacity` varchar(65) NOT NULL default '',
+`ram_type` varchar(65) NOT NULL default '',
+`ram_capacity` varchar(65) NOT NULL default '',
+`monitor_manufacture_name` varchar(65) NOT NULL default '',
+`model_name_monitor` varchar(65) NOT NULL default '',
+`monitor_sn` varchar(65) NOT NULL default '',
+`pc_type` varchar(65) NOT NULL default '',
+`pc_name` varchar(65) NOT NULL default '',
+`email` varchar(65) NOT NULL default '',
+`supplier_name` varchar(65) NOT NULL default '',
+`invoice_no` varchar(65) NOT NULL default '',
+`invoice_pdf` varchar(65) NOT NULL default '',
+`asset` varchar(65) NOT NULL default '',
+`asset_pending` varchar(65) NOT NULL default '',
+`asset_no` varchar(65) NOT NULL default '',
+`currency_type` varchar(65) NOT NULL default '',
+`price` varchar(65) NOT NULL default '',
+`os_name` varchar(65) NOT NULL default '',
+`os_type` varchar(65) NOT NULL default '',
+`os_acctivate` varchar(65) NOT NULL default '',
+`office_name` varchar(65) NOT NULL default '',
+`office_active` varchar(65) NOT NULL default '',
+`virus_gurd` varchar(65) NOT NULL default '',
+`ip_addres` varchar(65) NOT NULL default '',
+`network_connct` varchar(65) NOT NULL default '',
+`network_connct_type` varchar(65) NOT NULL default '',
+`register_person` varchar(65) NOT NULL default '',
+`register_date` varchar(65) NOT NULL default '',
+`update_by` varchar(65) NOT NULL default '',
+`update_date` varchar(65) NOT NULL default '',
+PRIMARY KEY (`control_number`)
+);
+
+CREATE TABLE `pc_login` (
+`pc_username` varchar(65) NOT NULL default '',
+`pc_password` varchar(65) NOT NULL default '',
+`email` varchar(65) NOT NULL default '',
+PRIMARY KEY (`pc_username`)
+);
+
+CREATE TABLE `pc_manufacturename_tb` (
+`id` int(4) NOT NULL auto_increment,
+`manufacture_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_model_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`manufacture_name` varchar(65) NOT NULL default '',
+`model_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_office_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`office_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_os_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`os_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_owner_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`owner_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_ram_capacity_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`ram_capacity` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+
+CREATE TABLE `pc_responsible_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`responsible_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_section_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`section_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_supplier_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`supplier_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_users_tb` (
+`id` int(4) NOT NULL auto_increment,
+`username_name` varchar(65) NOT NULL default '',
+`password` varchar(65) NOT NULL default '',
+`admin` varchar(65) NOT NULL default '',
+`delet` varchar(65) NOT NULL default '',
+`edit` varchar(65) NOT NULL default '',
+`test` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_using_tb` (
+`id` int(4) NOT NULL auto_increment,
+`pc_using` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+CREATE TABLE `pc_status_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`status_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;
+
+
+
+
+
+
+
+
+
+
+

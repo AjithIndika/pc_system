@@ -1,0 +1,10 @@
+CREATE TABLE `pc_users_tb` (
+`id` int(4) NOT NULL auto_increment,
+`username_name` varchar(65) NOT NULL default '',
+`password` varchar(65) NOT NULL default '',
+`admin` varchar(65) NOT NULL default '',
+`delet` varchar(65) NOT NULL default '',
+`edit` varchar(65) NOT NULL default '',
+`test` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;

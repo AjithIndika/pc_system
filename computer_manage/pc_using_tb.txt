@@ -1,0 +1,5 @@
+CREATE TABLE `pc_using_tb` (
+`id` int(4) NOT NULL auto_increment,
+`pc_using` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;

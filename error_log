@@ -1,0 +1,1 @@
+[11-Sep-2020 15:01:42 Asia/Colombo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/lankahal/public_html/samples/pc_system/assets/class/from_details.php on line 636

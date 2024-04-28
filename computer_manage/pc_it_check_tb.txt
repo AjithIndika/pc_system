@@ -1,0 +1,10 @@
+CREATE TABLE `pc_it_check_tb` (
+`id` int(4) NOT NULL auto_increment,
+`control_number` varchar(65) NOT NULL default '',
+`building_name` varchar(65) NOT NULL default '',
+`section_name` varchar(65) NOT NULL default '',
+`responsible_name` varchar(65) NOT NULL default '',
+`check_date` varchar(65) NOT NULL default '',
+`check_by` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);

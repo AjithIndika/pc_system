@@ -1,0 +1,5 @@
+CREATE TABLE `pc_currency_type_tb` (
+`id` int(4) NOT NULL auto_increment,
+`currency_type` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);

@@ -1,0 +1,5 @@
+CREATE TABLE `pc_office_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`office_name` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) ;

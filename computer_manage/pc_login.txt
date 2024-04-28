@@ -1,0 +1,6 @@
+CREATE TABLE `pc_login` (
+`pc_username` varchar(65) NOT NULL default '',
+`pc_password` varchar(65) NOT NULL default '',
+`email` varchar(65) NOT NULL default '',
+PRIMARY KEY (`pc_username`)
+);

@@ -1,0 +1,5 @@
+CREATE TABLE `pc_hd_capacity_name_tb` (
+`id` int(4) NOT NULL auto_increment,
+`hd_capacity` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+);
